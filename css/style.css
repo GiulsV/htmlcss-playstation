@@ -1,3 +1,11 @@
+/* Utility */
+
+.ms_text_dark{
+    color: black;
+}
+
+
+
 /* Header fisso + Navbar */
 
 body{
@@ -13,4 +21,9 @@ body{
 
 .ms_search{
     width: 30px;
+}
+
+.ms_chevron{
+    display: inline-block;
+    width: 0.75rem;
 }
