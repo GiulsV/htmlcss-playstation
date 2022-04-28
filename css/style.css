@@ -220,6 +220,31 @@ body{
         height: 150px;
     }
 
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: #00439C;
+    padding: 3em 0;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.footer-nation img{
+    width: 25px;
+}
+
+.footer-bottom img{
+    width: 200px;
+}
 
 
 
