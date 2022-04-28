@@ -73,18 +73,18 @@ body{
 
     
 
-    /* Jumbotron Carosel */
-    .jumbo-carosel img{
+    /* Jumbotron Carousel */
+    .jumbo-carousel img{
         max-width: 100%;
         border-radius: 1rem;
         transition: 1s;
     }
     
-    .jumbo-carosel .col:hover img{
+    .jumbo-carousel .col:hover img{
         transform: translateY(-20px);
     }
     
-    .jumbo-carosel {
+    .jumbo-carousel {
         margin-top: 3em;
     }
 
@@ -190,11 +190,36 @@ body{
     }
     
         /* Responsive (immagine scompare) */
-        @media  screen and (max-width: 576px) {
+        @media  screen and (max-width: 768px) {
             
             .ms_banner_image {
                 display: none;
             }
         }
     
-    /* Deals */
+    /* Deals (proprietà di Esplora sopra) */
+
+    /* Playstation Now (proprietà simile a Banner Playstation Plus)*/
+
+    .bg_blue{
+        background-color: #161C3B;
+    }
+
+    /* Social (proprietà di Esplora) */
+
+    .ms_wrapper{
+        display: flex;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+
+    .ms_thumb_social img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+
