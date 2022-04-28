@@ -10,6 +10,13 @@
     color: black;
 }
 
+.ms_padding_top_text{
+    padding-top: 1rem;
+}
+.ms_padding_bottom_text{
+    padding-bottom: 1rem;
+}
+
 
 
 /* Header fisso + Navbar */
@@ -70,3 +77,38 @@ body{
     .jumbo-carosel {
         margin-top: 3em;
     }
+
+    /* Playstation */
+    .playstation{
+        padding: 8em 0;
+    }
+    
+    .playstation-top{
+        text-align: center;
+    }
+    
+    .playstation-bottom{
+        padding-top: 4em;
+    }
+    
+    .ps-img img{
+        width: 100%;
+    }
+    
+        /* Thumbnails */
+        .ms_thumb img{
+            width: 100%;
+            padding-bottom: 1em;
+        }
+        
+        .ms_active{
+            border-bottom: 3px solid #0d6efd;
+        }
+        
+        .ms_thumb_opacity{
+            opacity: 50%;
+        }
+        
+        .row .ms_thumb_opacity:hover{
+            opacity: 100%;
+        }
