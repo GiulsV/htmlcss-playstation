@@ -16,6 +16,9 @@
 .ms_padding_bottom_text{
     padding-bottom: 1rem;
 }
+.ms_padding_jumbo{
+    padding-bottom: 5rem;
+}
 
 
 
@@ -44,23 +47,30 @@ body{
 /* Main */
 
     /* Jumbotron */
-   /*  .ms_bg_color{
+    .ms_bg_color{
         background-color: #CD3D0F;
     }
-    .ms_jumbo{
-        position: absolute;
+    .ms_jumbotron{
+        width: 100%;
+        height: 700px;
+        background-image: url(../img/jumbo-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
-    .ms_maintxt {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    
+    .ms_jumbo_align img{
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1em;
     }
 
-    .ms_logo_game{
-       width: 40%;
-       position: relative; 
-    } */
+    .ms_jumbo_row{
+        display: flex;
+        height: 700px;
+        align-items: flex-end;
+    }
+
     
 
     /* Jumbotron Carosel */
@@ -141,3 +151,5 @@ body{
     .ms_games_text{
         margin-top: 1em;
     }
+
+    /* Esplora */
