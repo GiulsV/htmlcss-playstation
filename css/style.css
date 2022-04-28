@@ -166,5 +166,35 @@ body{
     
 
     /* Banner Playstation Plus */
-
+    .ms_banner_small{
+        margin-top: 3em;
+    }
     
+    .ms_banner_logo img{
+        width: 65%;
+    }
+    
+    .ms_banner_image img{
+        width: 100%;
+    }
+
+    .ms_bg_grey{
+        background-color: #d3d0d0d3;
+    }
+    .bg_lightgrey{
+        background-color: #a8a6a5;
+    }
+
+    .ms_left_padding{
+        padding: 2em 0;
+    }
+    
+        /* Responsive (immagine scompare) */
+        @media  screen and (max-width: 576px) {
+            
+            .ms_banner_image {
+                display: none;
+            }
+        }
+    
+    /* Deals */
