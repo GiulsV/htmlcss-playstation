@@ -58,7 +58,7 @@ body{
         background-size: cover;
         background-position: center;
     }
-    
+
     .ms_jumbo_align img{
         width: 100%;
         max-width: 300px;
@@ -71,7 +71,7 @@ body{
         align-items: flex-end;
     }
 
-    
+
 
     /* Jumbotron Carousel */
     .jumbo-carousel img{
@@ -79,11 +79,11 @@ body{
         border-radius: 1rem;
         transition: 1s;
     }
-    
+
     .jumbo-carousel .col:hover img{
         transform: translateY(-20px);
     }
-    
+
     .jumbo-carousel {
         margin-top: 3em;
     }
@@ -92,38 +92,38 @@ body{
     .ms_explore{
         padding: 8em 0;
     }
-    
+
     .ms_explore_top{
         text-align: center;
     }
-    
+
     .ms_explore_bottom{
         padding-top: 4em;
     }
-    
+
     .ms_ps_image img{
         width: 100%;
     }
-    
+
         /* Thumbnails */
         .ms_thumb img{
             width: 100%;
             padding-bottom: 1em;
         }
-        
+
         .ms_active{
             border-bottom: 3px solid #0d6efd;
         }
-        
+
         .ms_thumb_opacity{
             opacity: 50%;
             cursor: pointer;
         }
-        
+
         .row .ms_thumb_opacity:hover{
             opacity: 100%;
         }
-    
+
 
 
     /* Banner (stesse proprietà di Jumbotron sopra) */
@@ -135,20 +135,20 @@ body{
         background-size: cover;
         background-position: center;
     }
-    
+
     /* Banner Giochi */
     .ms_banner_bottom{
         width: 100%;
         background-color: #1F1F1F;
         padding: 3em 0;
     }
-    
+
     .ms_games_thumb img{
         width: 100%;
         border-radius: 2rem;
-    
+
     }
-    
+
     .ms_games_text{
         margin-top: 1em;
     }
@@ -163,19 +163,21 @@ body{
         .ms_thumb_text{
         width: 85%;
         }
-    
+
 
     /* Banner Playstation Plus */
     .ms_banner_small{
         margin-top: 3em;
+        height: 100%;
     }
-    
+
     .ms_banner_logo img{
         width: 65%;
     }
-    
+
     .ms_banner_image img{
         width: 100%;
+        object-fit: cover;
     }
 
     .ms_bg_grey{
@@ -188,15 +190,15 @@ body{
     .ms_left_padding{
         padding: 2em 0;
     }
-    
+
         /* Responsive (immagine scompare) */
         @media  screen and (max-width: 768px) {
-            
+
             .ms_banner_image {
                 display: none;
             }
         }
-    
+
     /* Deals (proprietà di Esplora sopra) */
 
     /* Playstation Now (proprietà simile a Banner Playstation Plus)*/
