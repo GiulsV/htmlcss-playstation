@@ -80,6 +80,12 @@ body{
         transition: 1s;
     }
 
+    .ms_select img{
+        padding: 2px;
+        border: 2px solid #0d6efd;
+        border-radius: 1.2rem;
+    }
+
     .jumbo-carousel .col:hover img{
         transform: translateY(-20px);
     }
@@ -108,7 +114,6 @@ body{
         /* Thumbnails */
         .ms_thumb img{
             width: 100%;
-            padding-bottom: 1em;
         }
 
         .ms_active{
