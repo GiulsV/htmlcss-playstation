@@ -286,3 +286,13 @@ footer a:hover{
         border-radius: 1.2rem;
         transform: translateY(-20px); 
     }
+
+
+    /* carosello */
+
+    #carouselSlides .carousel-item img {
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        height: 80vh;
+    }
