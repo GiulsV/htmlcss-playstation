@@ -29,6 +29,7 @@
             <a class="navbar-brand" href="#">
               <img src="img/play_logo.svg" alt="Logo Playstation" />
             </a>
+            <!-- Menù Burger-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,41 +37,246 @@
             <!-- navbar sinistra -->
             <div class="navbar-collapse collapse" id="navbarContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
+                  <!-- Aggiunto Dropdown menù-->
+                <li class="nav-item dropdown position-static">
+                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
                     Giochi
                     <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
                   </a>
+                  <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+
+                    <li class="list-inline-item">
+                        <a class="dropdown-item" href="#">
+                            <img src="img/play-menu-ico.png" alt="">
+                            <br>PlayStation 5
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="dropdown-item" href="#">
+                            <img src="img/play-menu-ico.png" alt="">
+                            <br>PlayStation 5
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="dropdown-item" href="#">
+                            <img src="img/play-menu-ico.png" alt="">
+                            <br>PlayStation 5
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item px-3">
+                        <a class="ms_sublink" href="#">Sublink</a>
+                    </li>
+                    <li class="list-inline-item px-3">
+                        <a class="ms_sublink" href="#">Sublink</a>
+                    </li>
+                    <li class="list-inline-item px-3">
+                        <a class="ms_sublink" href="#">Sublink</a>
+                    </li>
+                </ul>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
-                    Hardware
-                    <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
-                  </a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
-                    Servizi
-                    <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
-                  </a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
-                    Novità
-                    <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
-                  </a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
-                    Fai Acquisti
-                    <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
-                  </a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
-                  <a class="nav-link py-3 px-0 px-lg-3 text-dark" href="#">
-                    Supporto
-                    <img src="img/chevron-down-solid.svg"alt="" class="ms_chevron"/>
-                  </a>
+                <!-- Aggiunto Dropdown menù-->
+                  <li class="nav-item dropdown position-static">
+                    <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      Hardware
+                      <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
+                    </a>
+                    <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+  
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                  </ul>
+                  </li>
+                <!-- Aggiunto Dropdown menù-->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      Servizi
+                      <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
+                    </a>
+                    <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+  
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                  </ul>
+                  </li>
+                <!-- Aggiunto Dropdown menù-->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      Novità
+                      <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
+                    </a>
+                    <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+  
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                  </ul>
+                  </li>
+                <!-- Aggiunto Dropdown menù-->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      Fai Acquisti
+                      <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
+                    </a>
+                    <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+  
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                  </ul>
+                  </li>
+                <!-- Aggiunto Dropdown menù-->
+                <li class="nav-item dropdown position-static">
+                    <a class="nav-link py-3 px-0 px-lg-3 text-dark" role="button"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                      Supporto
+                      <img src="img/chevron-down-solid.svg" alt="" class="ms_chevron"/>
+                    </a>
+                    <ul class="dropdown-menu w-100 pt-0 mt-0 border-0 rounded-0 list-inline text-center" aria-labelledby="dropdownMenuLink">
+  
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a class="dropdown-item" href="#">
+                              <img src="img/play-menu-ico.png" alt="">
+                              <br>PlayStation 5
+                          </a>
+                      </li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                      <li class="list-inline-item px-3">
+                          <a class="ms_sublink" href="#">Sublink</a>
+                      </li>
+                  </ul>
+                  </li>
                 </li>
               </ul>
 
@@ -511,7 +717,7 @@
         <div class="ms_explore_bottom">
           <div class="ms_wrapper">
             <div class="container-fluid">
-              <div class="row row-cols-sm-2 row-cols-lg-4 g-2">
+              <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-4 g-2">
                 <div class="col mb-2 mt-2 ms_thumb_social">
                   <img src="img/twitter.jpg" alt="" />
                 </div>
