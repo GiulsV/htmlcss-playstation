@@ -227,7 +227,10 @@ footer{
     background-color: #00439C;
     padding: 3em 0;
 }
-
+.ms_bg_footer_list{
+    background-color: transparent;
+    border: none;
+}
 
 footer a{
     text-decoration: none;
@@ -238,11 +241,11 @@ footer a:hover{
     color: white;
 }
 
-.footer-nation img{
+.ms_footer_nation img{
     width: 25px;
 }
 
-.footer-bottom img{
+.ms_footer_bottom img{
     width: 200px;
 }
 
