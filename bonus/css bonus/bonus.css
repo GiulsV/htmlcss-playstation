@@ -20,6 +20,14 @@
     padding-bottom: 5rem;
 }
 
+.ms_thumb_opacity{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.row .ms_thumb_opacity:hover{
+    opacity: 100%;
+}
 
 
 /* Header fisso + Navbar */
@@ -71,15 +79,17 @@ body{
         align-items: flex-end;
     }
 
-
-
     /* Jumbotron Carousel */
     .jumbo-carousel img{
         max-width: 100%;
         border-radius: 1rem;
         transition: 1s;
     }
-
+    .ms_select img{
+        padding: 2px;
+        border: 2px solid #0d6efd;
+        border-radius: 1.2rem;
+    }
     .jumbo-carousel .col:hover img{
         transform: translateY(-20px);
     }
@@ -87,6 +97,7 @@ body{
     .jumbo-carousel {
         margin-top: 3em;
     }
+
 
     /* Playstation (si ripete anche in Esplora sotto Banner)*/
     .ms_explore{
@@ -108,23 +119,11 @@ body{
         /* Thumbnails */
         .ms_thumb img{
             width: 100%;
-            padding-bottom: 1em;
         }
 
         .ms_active{
             border-bottom: 3px solid #0d6efd;
         }
-
-        .ms_thumb_opacity{
-            opacity: 50%;
-            cursor: pointer;
-        }
-
-        .row .ms_thumb_opacity:hover{
-            opacity: 100%;
-        }
-
-
 
     /* Banner (stesse proprietà di Jumbotron sopra) */
     .ms_banner{
@@ -253,16 +252,37 @@ footer a:hover{
 
 
 /* Bonus */
+    /* Navbar */
+    .dropdown-item:focus, .dropdown-item:hover {
+        color: #1e2125;
+        background-color: white;
+        box-shadow: 0px 1px 5px black;
+    }
 
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #1e2125;
-    background-color: white;
-    box-shadow: 0px 1px 5px black;
-}
+    .ms_sublink{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    /* Carousel */
 
-.ms_sublink{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
+    .ms_selected img{
+        padding: 2px;
+        border: 2px solid transparent;
+        border-radius: 1.2rem;
+    }
 
+    .ms_thumb_opacity{
+        opacity:70%;
+        cursor: pointer;
+    }
+
+    .row .ms_thumb_opacity:hover{
+        opacity: 100%;
+    }
+    .ms_selected .ms_border:hover{
+        padding: 2px;
+        border: 2px solid #0d6efd;
+        border-radius: 1.2rem;
+        transform: translateY(-20px); 
+    }
