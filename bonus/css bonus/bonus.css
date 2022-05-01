@@ -266,7 +266,7 @@ footer a:hover{
     }
     /* Carousel */
 
-    .ms_selected img{
+    /* .ms_selected img{
         padding: 2px;
         border: 2px solid transparent;
         border-radius: 1.2rem;
@@ -285,14 +285,90 @@ footer a:hover{
         border: 2px solid #0d6efd;
         border-radius: 1.2rem;
         transform: translateY(-20px); 
-    }
+    } */
 
 
-    /* carosello */
+    /* Carosello + Thumbnail*/
 
-    #carouselSlides .carousel-item img {
-        object-fit: cover;
+    #carouselSlides  .carousel-item{
         object-position: center;
         overflow: hidden;
         height: 80vh;
     }
+    
+    .carousel-item img{
+        object-fit: fill;
+        height: 100%;
+    }
+
+    .carousel-indicators{
+        margin-bottom: -20px;
+    }
+    
+        .carousel-indicators .ms_border:hover{
+        padding: 2px;
+        border: 2px solid #0d6efd;
+    }
+        @media screen and (max-width: 1200px) {
+            .carousel-item img{
+                object-fit: contain;
+                height: 100%;
+            }
+
+            .carousel-indicators{
+                margin-bottom: 0;
+            }
+        }
+
+        @media screen and (max-width: 992px){
+            #carouselSlides  .carousel-item{
+                object-position: center;
+                overflow: hidden;
+                height: 75vh;
+            }
+
+            .carousel-indicators{
+                margin-bottom: 10px;
+            }
+        }
+
+        @media screen and (max-width: 768px){
+            #carouselSlides  .carousel-item{
+                object-position: center;
+                overflow: hidden;
+                height: 70vh;
+            }
+
+            .carousel-indicators{
+                margin-bottom: 20px;
+            }
+        }
+
+        @media screen and (max-width: 576px){
+            #carouselSlides  .carousel-item{
+                object-position: center;
+                overflow: hidden;
+                height: 65vh;
+            }
+
+            .carousel-indicators{
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (max-width: 376px){
+            #carouselSlides  .carousel-item{
+                object-position: center;
+                overflow: hidden;
+                height: 60vh;
+            }
+
+            .carousel-indicators{
+                margin-bottom: 40px;
+            }
+        }
+
+
+        
+
+
